@@ -1,6 +1,6 @@
 # MATH 6600: Methods of Applied Mathematics
 
-This is the main repository of course materials for MATH 6600 at RPI, Fall 2024. The syllabus is posted in the README below. Lecture notes, homework, exams, and supplementary materials will be posted here or linked via LMS (RCS access only).
+This is the main repository of course materials for MATH 6600 at RPI, Fall 2024. The syllabus is posted in the README below. Lecture notes, homework, exams, and supplementary materials will be posted here or linked through Piazza and Gradescope (RCS access only).
 
 > **Course description (from [RPI Catalog](https://catalog.rpi.edu/preview_course_nopop.php?catoid=11&coid=18982))**
 >
@@ -18,6 +18,8 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 **Office Hours:** Wednesday 4-5pm in Amos Eaton 329.
 
 **Contact:** hornia3@rpi.edu
+
+**Course Tools:** Communicate (announcements, questions, and discussion) through [Piazza](https://piazza.com/). View and submit homework assignments on [Gradescope](https://www.gradescope.com/). The mid-term will be in-class and the final project will be submitted on Gradescope.
 
 **Grading:** 50% homework, 25% mid-term (TBD), 25% final project (TBD). Problem sets must be submitted to Gradescope before the deadline on the due date. Regrade requests can be made on Gradescope within one week of the due date.
 
