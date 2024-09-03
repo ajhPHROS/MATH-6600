@@ -15,7 +15,9 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 **Instructor**: Andrew Horning
 
-**Office Hours:** Wednesday 4-5pm in Amos Eaton 329.
+**Office Hours:** Monday and Thursday, 12:30-1:30pm in Amos Eaton 329. 
+
+(Due to holiday, office hours will take place Tuesday 09/03 and not Monday 09/02.) 
 
 **Contact:** hornia3@rpi.edu
 
@@ -36,10 +38,10 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 ### Lecture 1
 
-- Maps, meaning, and methods in applied mathematics
-- Models, data, and computers.
-- Linear spaces of functions.
+- Models, maps, and methods in applied mathematics
+- Vector spaces of functions
+- Norms, inner products, and orthogonality
 
-[Notes]() | [Reading]()
+[Notes](notes/lecture_01.pdf)
 
 
