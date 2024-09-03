@@ -44,4 +44,12 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 [Notes](notes/lecture_01.pdf)
 
+### Lecture 2
+
+- Orthogonal bases and Gram-Schmidt orthogonalization
+- From monomials to Legendre polynomials
+- Coordinate transformations and the Gram matrix
+
+[Notes](notes/lecture_02.pdf) | [Chebfun](https://www.chebfun.org/)
+
 
