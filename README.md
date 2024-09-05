@@ -58,6 +58,6 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - Linear transformations
 - The matrix of a linear transformation
 
-[Notes]() | Gram matrices in [action](https://arxiv.org/abs/2209.02244)!
+[Notes](notes/lecture_03.pdf) | Gram matrices in [action](https://arxiv.org/abs/2209.02244)
 
 
