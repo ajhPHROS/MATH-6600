@@ -52,4 +52,12 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 [Notes](notes/lecture_02.pdf) | [Chebfun](https://www.chebfun.org/)
 
+### Lecture 3
+
+- Matrices and quasimatrices
+- Linear transformations
+- The matrix of a linear transformation
+
+[Notes]() | Gram matrices in [action](https://arxiv.org/abs/2209.02244)!
+
 
