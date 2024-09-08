@@ -33,6 +33,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 ## Assignments
 
 - [Homework 1](https://www.gradescope.com/courses/845790) is due by 5pm on Friday, September 6.
+- [Homework 2](https://www.gradescope.com/courses/845790) is due by 5pm on Friday, September 13.
 
 ## Lecture summaries
 
