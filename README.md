@@ -69,4 +69,12 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 [Notes](notes/lecture_04.pdf)
 
+### Lecture 5
+
+- The four fundamental subspaces
+- The Fredholm alternative (n-dimensions)
+- Hilbert spaces
+
+[Notes](notes/lecture_05.pdf) | Review the [four subspaces with Gil Strang](https://www.youtube.com/watch?v=nHlE7EgJFds).
+
 
