@@ -61,4 +61,12 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 [Notes](notes/lecture_03.pdf) | Gram matrices in [action](https://arxiv.org/abs/2209.02244)
 
+### Lecture 4
+
+- Linear equations
+- Existence, uniqueness, and sensitivity
+- Fundamental subspaces and adjoint transformations
+
+[Notes](notes/lecture_04.pdf)
+
 
