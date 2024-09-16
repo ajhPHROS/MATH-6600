@@ -23,7 +23,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 **Course Tools:** Communicate (announcements, questions, and discussion) through [Piazza](https://piazza.com/). View and submit homework assignments on [Gradescope](https://www.gradescope.com/). The mid-term will be in-class and the final project will be submitted on Gradescope.
 
-**Grading:** 50% homework, 25% mid-term (October 17), 25% final project (TBD). Problem sets must be submitted to Gradescope before the deadline on the due date. Regrade requests can be made on Gradescope within one week of the due date.
+**Grading:** 50% homework (due weekly on Tuesday at 5pm), 25% mid-term (October 17), 25% final project (TBD). Problem sets must be submitted to Gradescope before the deadline on the due date. Regrade requests can be made on Gradescope within one week of the due date.
 
 **Collaboration and Academic Integrity:** To maximize your learning objectives, reserve time to work on each problem independently before discussing it with your classmates. Always write up the solution on your own and acknowledge your collaborators. Copying solutions directly from peers, books, internet sources, or AI tools is strictly prohibited.
 
@@ -68,5 +68,13 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - Fundamental subspaces and adjoint transformations
 
 [Notes](notes/lecture_04.pdf)
+
+### Lecture 5
+
+- The four fundamental subspaces
+- The Fredholm alternative (n-dimensions)
+- Hilbert spaces and completeness
+
+[Notes](notes/lecture_05.pdf) | Review the [four subspaces with Gil Strang](https://www.youtube.com/watch?v=nHlE7EgJFds).
 
 
