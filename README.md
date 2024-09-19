@@ -33,7 +33,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 ## Assignments
 
 - [Homework 1](https://www.gradescope.com/courses/845790) is due by 5pm on Friday, September 6.
-- [Homework 2](https://www.gradescope.com/courses/845790) is due by 5pm on Friday, September 13.
+- [Homework 2](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, September 17.
 
 ## Lecture summaries
 
@@ -75,6 +75,15 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - The Fredholm alternative (n-dimensions)
 - Hilbert spaces and completeness
 
-[Notes](notes/lecture_05.pdf) | Review the [four subspaces with Gil Strang](https://www.youtube.com/watch?v=nHlE7EgJFds).
+[Notes](notes/lecture_05.pdf) | Review the [four subspaces with Gil Strang](https://www.youtube.com/watch?v=nHlE7EgJFds)
+
+### Lecture 6
+
+- Separable Hilbert spaces and bases
+- Square integrable functions and smooth subspaces
+- Differentiation and integration in L^2(Omega)
+
+[Notes](notes/lecture_06.pdf)
+
 
 
