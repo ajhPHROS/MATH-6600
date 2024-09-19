@@ -85,5 +85,10 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 [Notes](notes/lecture_06.pdf)
 
+### Lecture 7
 
+- Bounded operators on Hilbert spaces
+- Operators with bounded inverse
+- From differential to integral equations
 
+[Notes](notes/lecture_07.pdf)
