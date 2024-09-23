@@ -93,3 +93,11 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - From differential to integral equations
 
 [Notes](notes/lecture_07.pdf)
+
+### Lecture 8
+
+- Criteria for a bounded inverse
+- Well-posed integral equations
+- Hilbert-Schmidt operators
+
+[Notes](notes/lecture_08.pdf)
