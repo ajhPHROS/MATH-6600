@@ -34,6 +34,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 - [Homework 1](https://www.gradescope.com/courses/845790) is due by 5pm on Friday, September 6.
 - [Homework 2](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, September 17.
+- [Homework 3](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, September 24.
 
 ## Lecture summaries
 
@@ -85,5 +86,10 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 [Notes](notes/lecture_06.pdf)
 
+### Lecture 7
 
+- Bounded operators on Hilbert spaces
+- Operators with bounded inverse
+- From differential to integral equations
 
+[Notes](notes/lecture_07.pdf)
