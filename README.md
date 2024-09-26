@@ -101,3 +101,11 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - Hilbert-Schmidt operators
 
 [Notes](notes/lecture_08.pdf)
+
+### Lecture 9
+
+- More about Hilbert-Schmidt operators
+- The SVD of a matrix
+- The SVD of a H-S operator
+
+[Notes](notes/lecture_09.pdf) | [Learning Hilbert-Schmidt kernels from data](https://arxiv.org/abs/2102.00491)
