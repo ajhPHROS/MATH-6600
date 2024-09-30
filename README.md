@@ -110,3 +110,11 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - The SVD of a H-S operator
 
 [Notes](notes/lecture_09.pdf) | [Learning Hilbert-Schmidt kernels from data](https://arxiv.org/abs/2102.00491)
+
+### Lecture 10
+
+- "Low-rank approximation" of H-S operators
+- Fredholm alternative for H-S operators
+- The H-S spectral theorem (self-adjoint)
+
+[Notes](notes/lecture_10.pdf) | [Singular value expansions for indefinite kernels](https://arxiv.org/abs/2409.16453v1)
