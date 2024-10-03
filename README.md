@@ -33,8 +33,8 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 ## Assignments
 
 - [Homework 1](https://www.gradescope.com/courses/845790) is due by 5pm on Friday, September 6. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/16))
-- [Homework 2](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, September 17.
-- [Homework 3](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, September 24.
+- [Homework 2](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, September 17. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/22))
+- [Homework 3](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, September 24. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/24))
 - [Homework 4](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 1.
 
 ## Lecture summaries
@@ -110,3 +110,11 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - The SVD of a H-S operator
 
 [Notes](notes/lecture_09.pdf) | [Learning Hilbert-Schmidt kernels from data](https://arxiv.org/abs/2102.00491)
+
+### Lecture 10
+
+- "Low-rank approximation" of H-S operators
+- Fredholm alternative for H-S operators
+- The H-S spectral theorem (self-adjoint)
+
+[Notes](notes/lecture_10.pdf) | [Singular value expansions for indefinite kernels](https://arxiv.org/abs/2409.16453v1)
