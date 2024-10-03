@@ -118,3 +118,13 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - The H-S spectral theorem (self-adjoint)
 
 [Notes](notes/lecture_10.pdf) | [Singular value expansions for indefinite kernels](https://arxiv.org/abs/2409.16453v1)
+
+### Lecture 11
+
+- Self-adjoint (SA) kernels
+- Eigenvalue expansion of SA kernel
+- Principle component analysis (PCA)
+
+[Notes](notes/lecture_11.pdf)
+
+
