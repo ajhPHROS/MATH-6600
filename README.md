@@ -128,4 +128,10 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 [Notes](notes/lecture_11.pdf)
 
+### Lecture 12
 
+- Covariance and principal components
+- Directions of maximal variance
+- Min-max characterizations of eigenpairs
+
+[Notes](notes/lecture_12.pdf)
