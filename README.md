@@ -135,3 +135,11 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - Min-max characterizations of eigenpairs
 
 [Notes](notes/lecture_12.pdf)
+
+### Lecture 13
+
+- Practical aspects of PCA
+- Sample covariance matrix
+- The SVD of the data matrix
+
+[Notes](notes/lecture_13.pdf) | [Demo](notes/pca_demo.m)
