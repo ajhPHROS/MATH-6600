@@ -36,7 +36,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - [Homework 2](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, September 17. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/22))
 - [Homework 3](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, September 24. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/24))
 - [Homework 4](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 1. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/28))
-- [Homework 5](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 15.
+- [Homework 5](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 15. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/31))
 
 ## Lecture summaries
 
@@ -128,4 +128,10 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 [Notes](notes/lecture_11.pdf)
 
+### Lecture 12
 
+- Covariance and principal components
+- Directions of maximal variance
+- Min-max characterizations of eigenpairs
+
+[Notes](notes/lecture_12.pdf)
