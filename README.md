@@ -144,3 +144,11 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - The SVD of the data matrix
 
 [Notes](notes/lecture_13.pdf) | [Demo](notes/pca_demo.m)
+
+### Lecture 14
+
+- Limitations of PCA
+- Large nonlinear feature maps
+- Kernel PCA and Mercer's theorem
+
+[Notes](notes/lecture_14.pdf) | [Demo](notes/kpca_demo.m) | [Reading]()
