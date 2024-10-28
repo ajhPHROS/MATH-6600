@@ -152,3 +152,11 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - Kernel PCA and Mercer's theorem
 
 [Notes](notes/lecture_14.pdf) | [Demo](notes/kpca_demo.m) | [Further Reading](notes/kernelPCA.pdf)
+
+## Lecture 15
+
+- Theory of compact linear operators (summary)
+- Unbounded operators and the resolvent
+- Differential operators with compact resolvent
+
+[Notes](notes/lecture_15.pdf)
