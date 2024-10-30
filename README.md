@@ -45,11 +45,21 @@ sources you would recommend that a reader consult to learn a fuller picture.)
 The report should be written in clear and concise language at a level that is accessible to your fellow classmates. Graphical illustrations of key concepts are highly encouraged when possible. Numerical experiments are encouraged but not required. 
 
 Below are some suggestions for project topics:
-* Randomized SVD: Fast methods for computing singular vectors and values based on randomized numerical linear algebra.
+* Randomized NLA: Fast methods for solving problems in linear algebra using randomized algorithms.
+    - [Classic randomized SVD](https://arxiv.org/abs/0909.4061)
+    - [Randomized trace estimation](https://arxiv.org/abs/2010.09649)
+    - [Hierarchical low-rank matrices](https://arxiv.org/abs/1001.0149)
 * Operator learning: Learn the Green's function of a partial differential equation from input-output data using, e.g., SVD of Green's function.
+    - [Elliptic PDEs](https://arxiv.org/abs/2102.00491)
 * Principle Component Analysis (PCA): extensions of PCA and Kernel PCA that are robust to noise, promote sparsity, etc.
+    - [Kernel PCA](https://ieeexplore.ieee.org/abstract/document/6790375)
+    - [Robust PCA](https://arxiv.org/abs/0912.3599)
 * Dynamic Mode Decomposition (DMD): A PCA-like algorithm for data with a time component (many variants like piDMD, eDMD, mpDMD).
+    - [The DMD Textbook](https://epubs.siam.org/doi/book/10.1137/1.9781611974508)
+    - [Physics-informed DMD](https://arxiv.org/abs/2112.04307)
 * Applied Koopman Theory: Operator framework for analyzing dynamical systems from data. Often applied in tandem with DMD algorithms for data-driven tasks.
+    - [Modern Koopman theory](https://arxiv.org/abs/2102.12086)
+    - [Applied Koopmanism](https://arxiv.org/abs/1206.3164)
 
 
 
