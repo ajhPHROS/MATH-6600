@@ -29,6 +29,29 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 **Accomodations and Disability Services:** If you have approved accommodations through the Office of Disability Services for Students ([DSS](https://studenthealth.rpi.edu/list-services/disability-student-services)), please reach out to meet with me early in the semester. We are committed to equal access for all students and will be happy to facilitate the use of approved accommodations. 
 
+## Final Project
+
+Instead of a final exam, write an 8-10 page report that reviews either a "method" (e.g., principle component analysis) or a "problem" (e.g., parabolic partial differential equations) in applied mathematics. Your report and presentation should both include:
+>
+> *Review*: Why is this method or problem important, what is its history, and what are
+the important publications and references? (A comprehensive bibliography is
+expected: not just the sources you happened to consult, but a complete set of
+sources you would recommend that a reader consult to learn a fuller picture.)
+>
+> *Description*: A concise mathematical description of the problem or method you are studying. If you are focusing on a *method*, you should clearly describe its scope: what problems can it be applied to? What are its strengths and limitations? If you are studying a *problem*, you should discuss key properties: what is the key structure/behavior in the problem and its solution? What are the primary methods used to make progress solving or analyzing this problem?
+> 
+> *Application*: Illustrate the key strengths, limitations, and characteristics of your *method* by working through a concrete instance of a problem OR study your *problem* by applying one or more methods to analyze and (if possible) construct solutions or approximate solutions.
+>
+The report should be written in clear and concise language at a level that is accessible to your fellow classmates. Graphical illustrations of key concepts are highly encouraged when possible. Numerical experiments are encouraged but not required. 
+
+Below are some suggestions for project topics:
+* Randomized SVD: Fast methods for computing singular vectors and values based on randomized numerical linear algebra.
+* Operator learning: Learn the Green's function of a partial differential equation from input-output data using, e.g., SVD of Green's function.
+* Principle Component Analysis (PCA): extensions of PCA and Kernel PCA that are robust to noise, promote sparsity, etc.
+* Dynamic Mode Decomposition (DMD): A PCA-like algorithm for data with a time component (many variants like piDMD, eDMD, mpDMD).
+* Applied Koopman Theory: Operator framework for analyzing dynamical systems from data. Often applied in tandem with DMD algorithms for data-driven tasks.
+
+
 
 ## Assignments
 
