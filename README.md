@@ -61,6 +61,7 @@ Below are some suggestions for project topics:
 - [Homework 4](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 1. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/28))
 - [Homework 5](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 15. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/31))
 - [Homework 6](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 29.
+- [Homework 7](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, November 5.
 
 ## Lecture summaries
 
