@@ -44,7 +44,7 @@ sources you would recommend that a reader consult to learn a fuller picture.)
 >
 The report should be written in clear and concise language at a level that is accessible to your fellow classmates. Graphical illustrations of key concepts are highly encouraged when possible. Numerical experiments are encouraged but not required. 
 
-Below are some suggestions for project topics:
+Below are some possible candidates for project topics, with references to get you started.
 * Randomized NLA: Fast methods for solving problems in linear algebra using randomized algorithms.
     - [Classic randomized SVD](https://arxiv.org/abs/0909.4061)
     - [Randomized trace estimation](https://arxiv.org/abs/2010.09649)
