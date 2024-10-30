@@ -51,6 +51,8 @@ Below are some possible candidates for project topics, with references to get yo
     - [Hierarchical low-rank matrices](https://arxiv.org/abs/1001.0149)
 * Operator learning: Learn the Green's function of a partial differential equation from input-output data using, e.g., SVD of Green's function.
     - [Elliptic PDEs](https://arxiv.org/abs/2102.00491)
+    - [Parabolic PDEs](https://arxiv.org/abs/2204.12789)
+    - [Neural network approach](https://arxiv.org/abs/2210.16016)
 * Principle Component Analysis (PCA): extensions of PCA and Kernel PCA that are robust to noise, promote sparsity, etc.
     - [Kernel PCA](https://ieeexplore.ieee.org/abstract/document/6790375)
     - [Robust PCA](https://arxiv.org/abs/0912.3599)
