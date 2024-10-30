@@ -60,6 +60,8 @@ Below are some possible candidates for project topics, with references to get yo
 * Applied Koopman Theory: Operator framework for analyzing dynamical systems from data. Often applied in tandem with DMD algorithms for data-driven tasks.
     - [Modern Koopman theory](https://arxiv.org/abs/2102.12086)
     - [Applied Koopmanism](https://arxiv.org/abs/1206.3164)
+* Kernel machines and reproducing kernel Hilbert spaces in machine learning.
+    - [Kernel Methods in ML](https://arxiv.org/abs/math/0701907)
 
 
 
