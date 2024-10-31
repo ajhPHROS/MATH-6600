@@ -29,6 +29,44 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 **Accomodations and Disability Services:** If you have approved accommodations through the Office of Disability Services for Students ([DSS](https://studenthealth.rpi.edu/list-services/disability-student-services)), please reach out to meet with me early in the semester. We are committed to equal access for all students and will be happy to facilitate the use of approved accommodations. 
 
+## Final Project
+
+Instead of a final exam, write an 8-10 page report that reviews either a "method" (e.g., principle component analysis) or a "problem" (e.g., parabolic partial differential equations) in applied mathematics. Your report should both include:
+>
+> *Review*: Why is this method or problem important, what is its history, and what are
+the important publications and references? (A comprehensive bibliography is
+expected: not just the sources you happened to consult, but a complete set of
+sources you would recommend that a reader consult to learn a fuller picture.)
+>
+> *Description*: A concise mathematical description of the problem or method you are studying. If you are focusing on a *method*, you should clearly describe its scope: what problems can it be applied to? What are its strengths and limitations? If you are studying a *problem*, you should discuss key properties: what is the key structure/behavior in the problem and its solution? What are the primary methods used to make progress solving or analyzing this problem?
+> 
+> *Application*: Illustrate the key strengths, limitations, and characteristics of your *method* by working through a concrete instance of a problem OR study your *problem* by applying one or more methods to analyze and (if possible) construct solutions or approximate solutions.
+>
+The report should be written in clear and concise language at a level that is accessible to your fellow classmates. Graphical illustrations of key concepts are highly encouraged when possible. Numerical experiments are encouraged but not required. 
+
+Below are some possible candidates for project topics, with references to get you started.
+* Randomized NLA: Fast methods for solving problems in linear algebra using randomized algorithms.
+    - [Classic randomized SVD](https://arxiv.org/abs/0909.4061)
+    - [Randomized trace estimation](https://arxiv.org/abs/2010.09649)
+    - [Hierarchical low-rank matrices](https://arxiv.org/abs/1001.0149)
+* Operator learning: Learn the Green's function of a partial differential equation from input-output data using, e.g., SVD of Green's function.
+    - [Elliptic PDEs](https://arxiv.org/abs/2102.00491)
+    - [Parabolic PDEs](https://arxiv.org/abs/2204.12789)
+    - [Neural network approach](https://arxiv.org/abs/2210.16016)
+    - [Random Features Model](https://arxiv.org/abs/2005.10224)
+* Principle Component Analysis (PCA): extensions of PCA and Kernel PCA that are robust to noise, promote sparsity, etc.
+    - [Kernel PCA](https://ieeexplore.ieee.org/abstract/document/6790375)
+    - [Robust PCA](https://arxiv.org/abs/0912.3599)
+* Dynamic Mode Decomposition (DMD): A PCA-like algorithm for data with a time component (many variants like piDMD, eDMD, mpDMD).
+    - [The DMD Textbook](https://epubs.siam.org/doi/book/10.1137/1.9781611974508)
+    - [Physics-informed DMD](https://arxiv.org/abs/2112.04307)
+* Applied Koopman Theory: Operator framework for analyzing dynamical systems from data. Often applied in tandem with DMD algorithms for data-driven tasks.
+    - [Modern Koopman theory](https://arxiv.org/abs/2102.12086)
+    - [Applied Koopmanism](https://arxiv.org/abs/1206.3164)
+* Kernel machines and reproducing kernel Hilbert spaces in machine learning.
+    - [Kernel Methods in ML](https://arxiv.org/abs/math/0701907)
+
+
 
 ## Assignments
 
@@ -38,6 +76,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - [Homework 4](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 1. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/28))
 - [Homework 5](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 15. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/31))
 - [Homework 6](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 29.
+- [Homework 7](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, November 5.
 
 ## Lecture summaries
 
@@ -152,3 +191,11 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 - Kernel PCA and Mercer's theorem
 
 [Notes](notes/lecture_14.pdf) | [Demo](notes/kpca_demo.m) | [Further Reading](notes/kernelPCA.pdf)
+
+## Lecture 15
+
+- Theory of compact linear operators (summary)
+- Unbounded operators and the resolvent
+- Differential operators with compact resolvent
+
+[Notes](notes/lecture_15.pdf)
