@@ -31,7 +31,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2024.
 
 ## Final Project
 
-Instead of a final exam, write an 8-10 page report that reviews either a "method" (e.g., principle component analysis) or a "problem" (e.g., parabolic partial differential equations) in applied mathematics. Your report and presentation should both include:
+Instead of a final exam, write an 8-10 page report that reviews either a "method" (e.g., principle component analysis) or a "problem" (e.g., parabolic partial differential equations) in applied mathematics. Your report should both include:
 >
 > *Review*: Why is this method or problem important, what is its history, and what are
 the important publications and references? (A comprehensive bibliography is
