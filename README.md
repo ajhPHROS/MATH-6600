@@ -208,3 +208,10 @@ Below are some possible candidates for project topics, with references to get yo
 
 [Notes](notes/lecture_16.pdf)
 
+### Lecture 17
+
+- Regular Sturm-Liouville problems
+- Singular Sturm-Liouville problems
+- Polynomial and series solutions
+
+[Notes](notes/lecture_17.pdf)
