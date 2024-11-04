@@ -199,3 +199,12 @@ Below are some possible candidates for project topics, with references to get yo
 - Differential operators with compact resolvent
 
 [Notes](notes/lecture_15.pdf)
+
+## Lecture 16
+
+- Resolvent set and spectrum
+- Properties of the resolvent
+- Spectral theorem for operators with compact resolvent
+
+[Notes](notes/lecture_16.pdf)
+
