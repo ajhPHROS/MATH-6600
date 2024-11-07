@@ -77,6 +77,7 @@ Below are some possible candidates for project topics, with references to get yo
 - [Homework 5](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 15. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/31))
 - [Homework 6](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 29.
 - [Homework 7](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, November 5.
+- [Homework 8](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, November 12.
 
 ## Lecture summaries
 
@@ -208,3 +209,10 @@ Below are some possible candidates for project topics, with references to get yo
 
 [Notes](notes/lecture_16.pdf)
 
+### Lecture 17
+
+- Regular Sturm-Liouville problems
+- Singular Sturm-Liouville problems
+- Polynomial and series solutions
+
+[Notes](notes/lecture_17.pdf)
