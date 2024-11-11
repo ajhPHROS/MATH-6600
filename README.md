@@ -224,3 +224,11 @@ Below are some possible candidates for project topics, with references to get yo
 - Legendre's equation
 
 [Notes](notes/lecture_18.pdf)
+
+### Lecture 19
+
+- Blow up at singular points
+- Modified power series solutions
+- Bessel's equation
+
+[Notes](notes/lecture_19.pdf)
