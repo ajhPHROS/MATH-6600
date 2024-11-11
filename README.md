@@ -216,3 +216,11 @@ Below are some possible candidates for project topics, with references to get yo
 - Polynomial and series solutions
 
 [Notes](notes/lecture_17.pdf)
+
+### Lecture 18
+
+- Power series solutions for ODEs
+- Convergence of power series
+- Legendre's equation
+
+[Notes](notes/lecture_18.pdf)
