@@ -240,4 +240,4 @@ Below are some possible candidates for project topics, with references to get yo
 - Fuch's Theorem
 - Separable PDEs
 
-[Notes](lecture_20.pdf)
+[Notes](notes/lecture_20.pdf)
