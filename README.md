@@ -248,4 +248,4 @@ Below are some possible candidates for project topics, with references to get yo
 - Steady-state temperature in a cylinder
 - Vibrations in a circular membrane
 
-[Notes](notes/lecture_21.pdf)
+[Notes](notes/lecture_21.pdf) | [Demo](notes/bessel_demo.m)
