@@ -233,3 +233,11 @@ Below are some possible candidates for project topics, with references to get yo
 - Bessel's equation
 
 [Notes](notes/lecture_19.pdf)
+
+### Lecture 20
+
+- Bessel Functions
+- Fuch's Theorem
+- Separable PDEs
+
+[Notes](notes/lecture_20.pdf)
