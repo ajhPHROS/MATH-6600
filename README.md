@@ -264,4 +264,4 @@ Below are some possible candidates for project topics, with references to get yo
 - Stationary PDEs
 - Time-dependent PDEs
 
-[Notes](notes/lecture_23)
+[Notes](notes/lecture_23.pdf)
