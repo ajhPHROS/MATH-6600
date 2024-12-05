@@ -266,7 +266,7 @@ Below are some possible candidates for project topics, with references to get yo
 
 [Notes](notes/lecture_23.pdf)
 
-## Lecture 24
+### Lecture 24
 
 - Functions of operators
 - Exponential of a normal operator
