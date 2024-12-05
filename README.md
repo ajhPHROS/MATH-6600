@@ -265,3 +265,11 @@ Below are some possible candidates for project topics, with references to get yo
 - Time-dependent PDEs
 
 [Notes](notes/lecture_23.pdf)
+
+## Lecture 24
+
+- Functions of operators
+- Exponential of a normal operator
+- Eigenvalues, eigenfunctions, and well-posedness
+
+[Notes](notes/lecture_24.pdf)
