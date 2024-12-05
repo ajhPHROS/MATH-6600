@@ -249,3 +249,19 @@ Below are some possible candidates for project topics, with references to get yo
 - Vibrations in a circular membrane
 
 [Notes](notes/lecture_21.pdf) | [Demo](notes/bessel_demo.m)
+
+### Lecture 22
+
+- Separable operators and domains
+- The structure of separable solutions
+- Eigenpairs of separable operators
+
+[Notes](notes/lecture_22.pdf)
+
+### Lecture 23
+
+- Diagonalizing separable operators
+- Stationary PDEs
+- Time-dependent PDEs
+
+[Notes](notes/lecture_23.pdf)
