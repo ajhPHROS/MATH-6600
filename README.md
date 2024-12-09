@@ -273,3 +273,11 @@ Below are some possible candidates for project topics, with references to get yo
 - Eigenvalues, eigenfunctions, and well-posedness
 
 [Notes](notes/lecture_24.pdf)
+
+### Lecture 25
+
+- Strongly continuous semigroups
+- Spectral analysis of semigroups
+- Limitations of spectral analysis
+
+[Notes](notes/lecture_25.pdf)
