@@ -77,7 +77,7 @@ Below are some possible candidates for project topics, with references to get yo
 - [Homework 5](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 15. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/31))
 - [Homework 6](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, October 29. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/38))
 - [Homework 7](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, November 5. (Project proposal, no solutions)
-- [Homework 8](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, ~~November 12~~ November 19.
+- [Homework 8](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, ~~November 12~~ November 19. ([Solutions](https://piazza.com/class/m0e05wghx8x1lt/post/43))
 - [Homework 9](https://www.gradescope.com/courses/845790) is due by 5pm on Tuesday, November 19.
 
 ## Lecture summaries
