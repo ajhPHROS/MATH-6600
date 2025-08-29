@@ -21,7 +21,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2025.
 
 **Course Tools:** Communicate (announcements, questions, and discussion) through [Piazza](https://piazza.com/). View and submit homework assignments on [Gradescope](https://www.gradescope.com/). The mid-term will be in-class and the final project will be submitted on Gradescope.
 
-**Grading:** 40% homework (due weekly TBD), 30% mid-term (October 21), 30% project (December 12). Problem sets must be submitted to Gradescope before the deadline on the due date. Regrade requests can be made on Gradescope within one week of return.
+**Grading:** 40% homework (due weekly on Monday at 6pm), 30% mid-term (October 21), 30% project (December 12). Problem sets must be submitted to Gradescope before the deadline on the due date. Regrade requests can be made on Gradescope within one week of return.
 
 **Collaboration and Academic Integrity:** To maximize your learning objectives, reserve time to work on each problem independently before discussing it with your classmates. Always write up the solution on your own and acknowledge your collaborators. Copying solutions directly from peers, books, internet sources, or AI tools is strictly prohibited.
 
