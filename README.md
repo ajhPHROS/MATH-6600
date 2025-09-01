@@ -74,8 +74,7 @@ A list of possible candidates for project topics will be assembled below as the 
 
 ### Lecture 1
 
-- methods of applied mathematics
-- linear algebra with functions
-- infinite-dimensional vector spaces
-
+- Models and data in modern applied math
+- Dimensionality, nonlinearity, and uncertainty
+- Intro to linear approximation: Taylor and Fourier series
 
