@@ -68,7 +68,7 @@ A list of possible candidates for project topics will be assembled below as the 
 
 ## Assignments
 
-- Homework 1 is due by 6pm on Monday, September 8. 
+- [Homework 1](https://www.gradescope.com/courses/1108723) is due by 6pm on Monday, September 8. 
 
 ## Lecture summaries
 
