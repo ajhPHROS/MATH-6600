@@ -78,3 +78,5 @@ A list of possible candidates for project topics will be assembled below as the 
 - Dimensionality, nonlinearity, and uncertainty
 - Intro to linear approximation: Taylor and Fourier series
 
+[Notes](notes/lecture01.pdf)
+
