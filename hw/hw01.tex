@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+	
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath}				% For Math
+\usepackage{amsfonts}
+\usepackage{fancyhdr}				% For fancy header/footer
+\usepackage{graphicx}				% For including figure/image
+\usepackage{cancel}					% To use the slash to cancel out stuff in work
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{MATH 6600 (MOAM)}
+\fancyhead[CO,C]{Homework 1}
+\fancyhead[RO,R]{\textbf{Due} Monday 9/08/25}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\noindent
+Please submit your solutions to the following problems on Gradescope by \textbf{6pm} on the due date. Collaboration is encouraged, however, you must write up your solutions individually.
+
+\bigskip
+
+\noindent
+\textbf{1) Taylor series.} Finite difference formulas are often used to approximate derivatives from function samples on a grid. For example, the second-order centered difference approximation to the first derivative of a function $f$ on an equally spaced grid with grid spacing $h>0$ is
+$$
+f'(x) \approx \frac{f(x+h)-f(x-h)}{2h}.
+$$
+
+\begin{itemize}
+    \item[\textbf{(a)}] If $u(x)$ has three continuous derivatives, show that the centered difference formula approximates $u'(x)$ with accuracy $\mathcal{O}(h^2)$ as $h\rightarrow 0$. Derive an explicit upper bound for the approximation error using an appropriate Taylor polynomial. 
+
+	\item[\textbf{(b)}] How does the bound in part (a) change if $u(x)$ is only twice continuously differentiable?
+    
+    \item[\textbf{(c)}] Derive a fourth-order accurate centered difference formula to approximate $u'(x)$ from samples $u(x-2h), u(x-h), u(x), u(x+h), u(x+2h)$ with grid spacing $h>0$. Here, ``fourth-order" accurate means that your approximation should have accuracy $\mathcal{O}(h^4)$ as $h\rightarrow 0$ when $u(x)$ has five continuous derivatives.
+
+\item[\textbf{(d)}] Use the second- and fourth-order finite-difference formulas to approximate the derivatives of the functions $\sin(2\pi x)$, $\cos(\pi(x-0.5))$, and $\sqrt{(1+\cos(2\pi x))^3}$ on an equispaced grid of $n=500$ points on the periodic interval $[0,1]$. Plot the approximation error for the derivative at each grid point and then plot the maximum absolute error on grids with $n=100,200,300,\ldots,10^4$ (use a logarithmic scale for both axes). Can you explain the behavior of the error for each function (e.g., why proportional to $h^2$, $h^4$, etc.)?
+\end{itemize}
+
+\bigskip
+
+\noindent
+\textbf{1) Fourier series.} In the Fourier basis, a $2$-periodic function $f(x)$ on $[-1,1]$ is written as
+
+$$f(x) = \frac{1}{\sqrt{2}}\sum_{k=-\infty}^\infty \hat f_k e^{i\pi kx}, \qquad\text{where}\qquad \hat f_k = \frac{1}{\sqrt{2}}\int_{-1}^1 e^{-i\pi kx}f(x)\,dx.$$
+
+\begin{itemize}
+    \item[\textbf{(a)}] Show that if $f$ is $n$-times continuously differentiable with $|f^{(n)}(x)|\leq M$ on the periodic interval $[-1,1]$, then $|\hat f_k| \leq \sqrt{2}M/(\pi k)^n$. (\textbf{Hint:} integrate by parts.) 
+
+	\item[\textbf{(b)}] If $f(x)$ is approximated by the truncated series $f_N(x) = (1/\sqrt{2})\sum_{k=-N}^N\hat f_k e^{i\pi k x}$, how do you expect the approximation error $E_N=\max_{-1\leq x\leq 1}|f(x)-f_N(x)|$ to scale as $N$ is increased? Derive a rigorous bound for the approximation error.
+
+    \item[\textbf{(c)}] Compute the Fourier coordinates of $f(x) = \sin^3(\pi x)$, $g(x) = |x|$, and $h(x) = |\sin(\pi x)|^3$. Plot the magnitude of the Fourier coefficients $-250\leq k\leq 250$ on a logarithmic scale. Based on the coefficient plots, roughly what accuracy do you expect if you approximate $g$ and $h$ by truncating their Fourier series, discarding terms with $|k|>250$? Compare your observations with your work in part (a) and (b).
+    
+\end{itemize}
+
+\end{document}
