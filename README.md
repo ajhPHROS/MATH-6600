@@ -80,3 +80,11 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture01.pdf)
 
+### Lecture 2
+
+- Linear algebra with functions
+- Dictionaries and data
+- Truncation errors (Taylor series)
+
+[Notes](notes/lecture02.pdf) | See notes for derivation of Taylor remainder term. For a concise review of vectors, matrices, inner products, and norms, see Chapters 1 and 3 of "Numerical Linear Algebra" by Trefethen and Bau.
+
