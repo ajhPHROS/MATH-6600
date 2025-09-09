@@ -88,3 +88,11 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture02.pdf) | See notes for derivation of Taylor remainder term. For a concise review of vectors, matrices, inner products, and norms, see Chapters 1 and 3 of "Numerical Linear Algebra" by Trefethen and Bau.
 
+### Lecture 3
+
+- The remainder theorem for Taylor series
+- Truncation errors for Taylor and Fourier series
+- Convergence properties of Taylor and Fourier series
+
+[Notes](notes/lecture03.pdf)
+
