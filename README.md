@@ -15,7 +15,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2025.
 
 **Instructor**: Andrew Horning
 
-**Office Hours:** TBD in Amos Eaton 329. 
+**Office Hours:** 12-1pm on Tuesday and Friday in Amos Eaton 329. 
 
 **Contact:** hornia3@rpi.edu
 
@@ -68,7 +68,7 @@ A list of possible candidates for project topics will be assembled below as the 
 
 ## Assignments
 
-- [Homework 1](https://www.gradescope.com/courses/1108723) is due by 6pm on Monday, September 8. 
+- [Homework 1](hw/) is due by 6pm on Monday, September 8. 
 
 ## Lecture summaries
 
