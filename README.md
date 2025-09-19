@@ -110,4 +110,4 @@ A list of possible candidates for project topics will be assembled below as the 
 - Orthogonality for functions
 - Hilbert spaces and completeness
 
-[Notes](notes/lecture05.pdf)
+[Notes](notes/lecture05.pdf) | See pp. 50-58 on function spaces in [Stone and Goldbart](https://lms.rpi.edu/ultra/courses/_23740_1/cl/outline). See pp. 156-167 of [Stein and Shakarchi](https://lms.rpi.edu/ultra/courses/_23740_1/cl/outline) for a rigorous introduction to Hilbert spaces.
