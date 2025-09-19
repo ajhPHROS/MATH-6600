@@ -69,7 +69,8 @@ A list of possible candidates for project topics will be assembled below as the 
 ## Assignments
 
 - [Homework 1](hw/) is due by 6pm on Monday, September 8. 
-
+- [Homework 2](hw/) is due by 6pm on Monday, September 29.
+  
 ## Lecture summaries
 
 ### Lecture 1
