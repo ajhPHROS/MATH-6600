@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+	
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath}				% For Math
+\usepackage{amsfonts}
+\usepackage{fancyhdr}				% For fancy header/footer
+\usepackage{graphicx}				% For including figure/image
+\usepackage{cancel}					% To use the slash to cancel out stuff in work
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{MATH 6600 (MOAM)}
+\fancyhead[CO,C]{Homework 2}
+\fancyhead[RO,R]{\textbf{Due} Monday 9/29/25}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\noindent
+Please submit your solutions to the following problems on Gradescope by \textbf{6pm} on the due date. Collaboration is encouraged, however, you must write up your solutions individually.
+
+\bigskip
+
+\noindent
+\textbf{1) Normed vector spaces.} Denote the set of all polynomials on $[-1,1]$ with real coefficients, of any degree, by $\mathbb{P}$ and define a map $\|\cdot\|:\mathbb{P}\rightarrow[0,\infty)$ by $\|p\|=\sup_{-1\leq x\leq 1}|p(x)|$.
+
+\begin{itemize}
+
+	\item[\textbf{(a)}] Verify that $\mathbb{P}$ is a vector space over $\mathbb{R}$ and that the map $\|\cdot\|$ is a norm on $\mathbb{P}$.
+
+	\item[\textbf{(b)}] Name one finite-dimensional subspace and one infinite-dimensional subspace of $\mathbb{P}$.
+
+	\item[\textbf{(c)}] Show that $\mathbb{P}$ is \textbf{not} complete with respect to the norm $\|\cdot\|$. 
+
+	\noindent
+	\textbf{Hint:} Construct a Cauchy sequence of polynomials whose limit is not a polynomial.
+
+	\item[\textbf{(d)}] Show that the limit of any Cauchy sequence in $\mathbb{P}$ is a continuous function on $[-1,1]$.
+
+\end{itemize}
+
+\noindent
+\textbf{Note:} The space of continuous functions with the supremum norm is an example of a \textit{Banach space}, a complete normed space. While MATH 6600 focuses on Hilbert spaces and the role of orthogonality, Banach spaces also occupy an important place in applied analysis.
+
+
+\bigskip
+
+\noindent
+\textbf{2) Chebyshev Series.} The Chebyshev polynomials provide a ``nonperiodic analogue" of Fourier series for $[-1,1]$. They are defined by $T_n(x) = \cos(n\arccos x)$, for $n=0,1,2,3,\ldots$.
+
+\medskip
+\noindent
+\textbf{Hint:} The substitution $x=\cos\theta$ may be useful in completing some of the following exercises.
+
+\begin{itemize}
+
+	\item[\textbf{(a)}] Verify that $T_n(x)$ is a degree $n$ polynomial by showing that it satisfies a three term recurrence: $T_0(x)=1$, $T_1(x)=x$, and $T_n(x) = 2xT_{n-1}(x) - T_{n-2}(x)$ for $n\geq 2$. 
+
+	\item[\textbf{(b)}] Show that $\langle p,q\rangle=\int_{-1}^1p(x)q(x)(1-x^2)^{-1/2}dx$ defines an inner product on $\mathbb{P}$. 
+
+	\item[\textbf{(c)}] Show that the Chebyshev polynomials form an orthogonal basis for $\mathbb{P}$.
+
+\noindent
+\textbf{Note:} For the purpose of this question, you may interpret ${\rm span}\{T_k\}_{k=0}^\infty$ as the set of all \textit{finite} linear combinations of Chebyshev polynomials. This interpretation of span corresponds to a \textit{Hamel} basis for the infinite-dimensional vector space $\mathbb{P}$.
+
+	\item[\textbf{(d)}] Given a continuous function $f:[-1,1]\rightarrow\mathbb{R}$, give a formula for the \textit{best approximation} to $f$ in ${\rm span}\{T_0,T_1,\ldots,T_N\}$ with respect to the norm induced by $\langle\cdot,\cdot\rangle$.
+
+	\item[\textbf{(e)}] Based on your work in Homework 1, if $f$ has $n$ continuous derivatives, then what rate of decrease do you expect for the best approximation error as $N\rightarrow\infty$ in part (d)?
+
+\end{itemize}
+
+\noindent
+\textbf{Bonus (Optional).} On homework 1, you may have noticed that the Fourier coefficients of some of the nonsmooth functions decayed at a faster rate than the upper bounds you derived. Can you derive a sharper upper bound for the decay rate of Fourier coefficients of a function whose $n$th derivative is piecewise continuous with finitely many points of discontinuity? 
+
+\end{document}
