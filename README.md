@@ -96,3 +96,18 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture03.pdf)
 
+### Lecture 4
+
+- Vector spaces of functions
+- Dependence, span, and dimension
+- Inner products and norms
+
+[Notes](notes/lecture04.pdf)
+
+### Lecture 5
+
+- Inner product spaces
+- Orthogonality for functions
+- Hilbert spaces and completeness
+
+[Notes](notes/lecture05.pdf)
