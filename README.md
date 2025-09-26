@@ -112,3 +112,11 @@ A list of possible candidates for project topics will be assembled below as the 
 - Hilbert spaces and completeness
 
 [Notes](notes/lecture05.pdf) | See pp. 50-58 on function spaces in [Stone and Goldbart](https://lms.rpi.edu/ultra/courses/_23740_1/cl/outline). See pp. 156-167 of [Stein and Shakarchi](https://lms.rpi.edu/ultra/courses/_23740_1/cl/outline) for a rigorous introduction to Hilbert spaces.
+
+### Lecture 6
+
+- Best approximation as least-squares
+- The orthogonal residual criterion
+- Solution via orthonormal basis
+
+[Notes](notes/lecture06.pdf)
