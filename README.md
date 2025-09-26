@@ -120,3 +120,10 @@ A list of possible candidates for project topics will be assembled below as the 
 - Solution via orthonormal basis
 
 [Notes](notes/lecture06.pdf)
+
+### Lecture 7
+- Orthogonal residual criterion in a Hilbert space
+- Orthogonal complements and projections
+- Fourier series and orthogonal bases
+
+[Notes](notes/lecture07.pdf) | See Chapter 4, section 4 of Stein and Shakarchi [Stein and Shakarchi](https://lms.rpi.edu/ultra/courses/_23740_1/cl/outline) for a detailed treatment of closed subspaces, orthogonal projections, and the orthogonal residual criterion in a Hilbert space.
