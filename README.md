@@ -123,8 +123,25 @@ A list of possible candidates for project topics will be assembled below as the 
 [Notes](notes/lecture06.pdf)
 
 ### Lecture 7
+
 - Orthogonal residual criterion in a Hilbert space
 - Orthogonal complements and projections
 - Fourier series and orthogonal bases
 
 [Notes](notes/lecture07.pdf) | See Chapter 4, section 4 of Stein and Shakarchi [Stein and Shakarchi](https://lms.rpi.edu/ultra/courses/_23740_1/cl/outline) for a detailed treatment of closed subspaces, orthogonal projections, and the orthogonal residual criterion in a Hilbert space.
+
+### Lecture 8
+
+- Orthonormal bases in a Hilbert space
+- Bessel's inequality and Parseval's identity
+- Orthogonal projection and quasimatrices
+
+[Notes](notes/lecture08.pdf)
+
+### Lecture 9
+
+- Gram--Schmidt orthogonalization
+- The QR decomposition for quasimatrices
+- Finding a "best approximation" with QR
+
+[Notes](notes/lecture09.pdf)
