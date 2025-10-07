@@ -145,3 +145,11 @@ A list of possible candidates for project topics will be assembled below as the 
 - Finding a "best approximation" with QR
 
 [Notes](notes/lecture09.pdf)
+
+### Lecture 10
+
+- What makes a good basis?
+- Coordinate transformation
+- Gram matrices and condition numbers
+
+[Notes](notes/lecture10.pdf) | See [demo01.m](demos/) for a MATLAB illustration of good vs bad bases with Chebfun
