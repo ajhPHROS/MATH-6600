@@ -1,0 +1,97 @@
+\documentclass[12pt]{article}
+	
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath}				% For Math
+\usepackage{amsfonts}
+\usepackage{fancyhdr}				% For fancy header/footer
+\usepackage{graphicx}				% For including figure/image
+\usepackage{cancel}					% To use the slash to cancel out stuff in work
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{MATH 6600 (MOAM)}
+\fancyhead[CO,C]{Homework 3}
+\fancyhead[RO,R]{\textbf{Due} Tuesday 10/14/25}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\noindent
+Please submit your solutions to the following problems on Gradescope by \textbf{6pm} on the due date. Collaboration is encouraged, however, you must write up your solutions individually.
+
+\bigskip
+
+\noindent
+\textbf{1) Orthogonal Projection Again.} Let $E:\mathbb{R}^N\rightarrow \mathcal{H}$ be a quasimatrix, whose linearly independent columns are elements of a Hilbert space $\mathcal{H}$ with inner product $\langle\cdot,\cdot\rangle$, i.e.,
+$$
+E = \begin{bmatrix}
+| & & | \\
+e_1 & \cdots & e_N \\
+| & & |
+\end{bmatrix}.
+$$
+
+\begin{itemize}
+
+	\item[\textbf{(a)}] Given $f\in\mathcal{H}$, show that $\mathbf{c}\in\mathbb{R}^N$ minimizes $\|E\mathbf{c}-f\|$ if and only if $E^TE\mathbf{c}=E^Tf$, where $E^TE$ and  $E^Tf$ are the matrix and vector, respectively, whose components are
+$$
+(E^TE)_{ij} = \langle e_j, e_i\rangle, \qquad\text{and}\qquad (E^Tf)_j = \langle f, e_j\rangle.
+$$
+
+	\item[\textbf{(b)}] Is the Gram matrix, $E^TE$, from part (a) invertible? Explain your reasoning.
+
+	\item[\textbf{(c)}] Verify that $E(E^TE)^{-1}E^Tf$ is the orthogonal projection of $f$ onto ${\rm span}(e_1,\ldots,e_N)$.
+
+\end{itemize}
+
+\bigskip
+
+\noindent
+\textbf{2) Best Dictionary Approximation.} Use the Chebfun system in MATLAB to compare the numerical accuracy of two formulas for best approximation of a function $f:[-1,1]\rightarrow\mathbb{R}$:
+$$
+\mathbf{c}_1 = (E_N^TE_N)^{-1}E_N^Tf, \qquad\text{and}\qquad \mathbf{c}_2 = R_N^{-1} Q_N^Tf.
+$$
+Here, $E_N = \begin{bmatrix} 1 & x & \cdots & x^N\end{bmatrix}$ is the quasimatrix of monomials up to degree $N$ and $E_N = Q_NR_N$ is the QR decomposition of $E_N$ with respect to the $L^2([-1,1])$ inner product.
+
+\medskip
+\noindent
+\textbf{Note:} You may find the MATLAB code \texttt{demo01.m} on the course repository useful.
+
+\begin{itemize}
+
+	\item[\textbf{(a)}] Given $f(x) = 1/(1+20x^2)$, plot the relative error $\|E_N\mathbf{c}_1-f\|/\|f\|$ for dictionary sizes $N=10,20,30,\ldots,800$. Use a base-$10$ logarithmic scale for the relative error axis. 
+
+	\item[\textbf{(b)}] Repeat the experiment in part (a) for $\|E_N\mathbf{c}_2-f\|$ and compare the error curves. 
+
+	\item[\textbf{(c)}] Plot the condition numbers of the matrices $R_N$ and $E_N^TE_N$ for dictionary sizes $N=10,20,30,\ldots,800$. Use a base-$10$ logarithmic scale for the condition number axis. 
+
+	\item[\textbf{(d)}] Interpret the error curves in parts (a) and (b) in light of your experiments in part (c).
+
+\end{itemize} 
+
+\bigskip
+
+\noindent
+\textbf{3) Interpolation.} Use the Chebfun system in MATLAB to compare the approximation accuracy of polynomial interpolants in (i) equally spaced points and (ii) Legendre points:
+$$
+\texttt{xi = linspace(-1,1,N).';} \qquad \text{and} \qquad \texttt{xii = legpts(N);}.
+$$
+Use a Legendre basis to form the generalized Vandermonde matrices for interpolation.
+
+\begin{itemize}
+
+	\item[\textbf{(a)}]  Given $f(x) = 1/(1+20x^2)$, plot the relative error $\|f-p_N\|/\|f\|$ in both interpolants for $N=10,20,30,\ldots,500$. Use a base-$10$ logarithmic scale for the relative error axis. 
+
+	\item[\textbf{(b)}] Plot the condition number of the generalized Vandermonde matrices for both interpolants for $N=10,20,30,\ldots,500$. Use a base-$10$ logarithmic scale for the condition number axis. 
+
+	\item[\textbf{(c)}] Interpret the error curves in part (a) in light of your experiments in part (b).
+
+\end{itemize} 
+
+\end{document}
