@@ -152,4 +152,4 @@ A list of possible candidates for project topics will be assembled below as the 
 - Coordinate transformation
 - Gram matrices and condition numbers
 
-[Notes](notes/lecture10.pdf) | See [demo01.m](demos/) for a MATLAB illustration of good vs bad bases with Chebfun
+[Notes](notes/lecture10.pdf) | See [demo01](demos/) for a MATLAB illustration of good vs bad bases with Chebfun. Get started with Chebfun [here](https://www.chebfun.org/about/).
