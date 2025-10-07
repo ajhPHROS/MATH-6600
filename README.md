@@ -70,6 +70,7 @@ A list of possible candidates for project topics will be assembled below as the 
 
 - [Homework 1](hw/) is due by 6pm on Monday, September 8. 
 - [Homework 2](hw/) is due by 6pm on Monday, September 29.
+- [Homework 3](hw/) is due by 6pm on Tuesday, October 14.
   
 ## Lecture summaries
 
