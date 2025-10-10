@@ -153,3 +153,12 @@ A list of possible candidates for project topics will be assembled below as the 
 - Gram matrices and condition numbers
 
 [Notes](notes/lecture10.pdf) | See [demo01](demos/) for a MATLAB illustration of good vs bad bases with Chebfun. Get started with Chebfun [here](https://www.chebfun.org/about/).
+
+### Lecture 11
+
+- Interpolation, regression, and regularization
+- Approximation error: dictionary vs. data
+- What makes a "good" set of interpolation points?
+
+[Notes](notes/lecture11.pdf) | See [demo02](demos/) for a MATLAB illustration of good vs bad interpolation points with Chebfun.
+
