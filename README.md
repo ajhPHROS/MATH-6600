@@ -15,7 +15,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2025.
 
 **Instructor**: Andrew Horning
 
-**Office Hours:** 12-1pm on Tuesday and Friday in Amos Eaton 329. 
+**Office Hours:** 12-1pm on Tuesday and 2-3pm on Friday in Amos Eaton 329. 
 
 **Contact:** hornia3@rpi.edu
 
@@ -145,3 +145,11 @@ A list of possible candidates for project topics will be assembled below as the 
 - Finding a "best approximation" with QR
 
 [Notes](notes/lecture09.pdf)
+
+### Lecture 10
+
+- What makes a good basis?
+- Coordinate transformation
+- Gram matrices and condition numbers
+
+[Notes](notes/lecture10.pdf) | See [demo01](demos/) for a MATLAB illustration of good vs bad bases with Chebfun. Get started with Chebfun [here](https://www.chebfun.org/about/).
