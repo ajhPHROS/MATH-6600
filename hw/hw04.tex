@@ -1,0 +1,59 @@
+
+\documentclass[12pt]{article}
+	
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath}				% For Math
+\usepackage{amsfonts}
+\usepackage{fancyhdr}				% For fancy header/footer
+\usepackage{graphicx}				% For including figure/image
+\usepackage{cancel}					% To use the slash to cancel out stuff in work
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{MATH 6600 (MOAM)}
+\fancyhead[CO,C]{Homework 4}
+\fancyhead[RO,R]{\textbf{Due} Tuesday 10/21/25}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\noindent
+Please submit your solutions to the following problems on Gradescope by \textbf{6pm} on the due date. Collaboration is encouraged, however, you must write up your solutions individually.
+
+\bigskip
+
+\noindent
+\textbf{1) Representations of a linear transformation.} Let $V$ and $W$ be real vector spaces with bases $X=\{x_1,\ldots,x_n\}\subset V$ and $Y=\{y_1,\ldots,y_m\}\in W$, respectively. Suppose that a linear transformation $\mathcal{T}:V\rightarrow W$ has the matrix representation $T_{X\rightarrow Y}:\mathbb{R}^n\rightarrow\mathbb{R}^m$, which maps coordinates of $v\in V$ in the basis $X$ to the coordinates of $Tv\in W$ in the basis $Y$.
+
+\medskip
+\noindent
+\textbf{Notation:} Given quasimatrices $A:\mathbb{R}^n\rightarrow V$ and $B:\mathbb{R}^m\rightarrow W$ with columns $a_1,\ldots,a_n \in V$ and $b_1,\ldots,b_m \in W$, respectively, let $\mathcal{T}A$ denote the quasimatrix with columns $\mathcal{T}a_1,\ldots,\mathcal{T}a_n\in W$ and $A^TB$ denote the $n\times m$ matrix with entries $(A^TB)_{ij} = \langle b_j, a_i\rangle$.  
+
+\begin{itemize}
+
+	\item[\textbf{(a)}] Show that $T_{X\rightarrow Y} = (Q_Y^T Q_Y)^{-1}Q_Y^T\mathcal{T}Q_X$, where $Q_X$ and $Q_Y$ are quasimatrices whose columns are the basis elements $x_1,\ldots,x_n$ and $y_1,\ldots,y_m$, respectively.
+
+    \item[\textbf{(b)}] If $X'=\{x_1',\ldots,x_n'\}\subset V$ and $Y'=\{y_1',\ldots,y_m'\}\subset W$ are bases for $V$ and $W$, derive a `change-of-basis' formula that changes $T_{X\rightarrow Y}$ to $T_{X'\rightarrow Y'}$, the matrix representation of $\mathcal{T}$ that maps coordinates of $v$ in the basis $X'$ to those of $Tv$ in the basis $Y'$.
+
+    \item[\textbf{(c)}] How do the formulas in (a) and (b) simplify when $X$ and $Y$ are orthonormal bases?
+
+\end{itemize}
+
+\bigskip
+\noindent
+\textbf{2) Polynomial solutions to differential equations.} Show that for each $n=1,2,3,\ldots$, the following differential equations have a polynomial solution of degree $n$.
+
+\begin{itemize}
+\item[(a)] The Hermite differential equation: $y''-2xy'+2ny=0$.
+
+\item[(b)] The Laguerre differential equation: $xy''+(1-x)y'+ny=0$.
+
+\end{itemize}
+
+\end{document}
