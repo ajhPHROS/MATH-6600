@@ -170,3 +170,11 @@ A list of possible candidates for project topics will be assembled below as the 
 - Linear transformations and representations
 
 [Notes](notes/lecture12.pdf) | For an illustrative example of the _Lebesgue constant_ (the "amplifying factor" for interpolants defined in the notes, measured in the max norm) for equispaced points and Chebyshev points, see this [nice example](https://www.chebfun.org/examples/approx/LebesgueConst.html) from the Chebfun Gallery.
+
+### Lecture 13
+
+- Differentiation in the monomial basis
+- Approximate polynomial solutions to ODEs
+- Series solutions and the method of Frobenius
+
+[Notes](notes/lecture13.pdf)
