@@ -71,7 +71,7 @@ A list of possible candidates for project topics will be assembled below as the 
 - [Homework 1](hw/) is due by 6pm on Monday, September 8. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/16)
 - [Homework 2](hw/) is due by 6pm on Monday, September 29. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/19)
 - [Homework 3](hw/) is due by 6pm on Tuesday, October 14. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/21)
-- [Homework 4](hw/) is due by 6pm on Tuesday, October 21.
+- [Homework 4](hw/) is due by 6pm on Tuesday, October 21. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/22)
   
 ## Lecture summaries
 
