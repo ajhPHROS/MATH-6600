@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+	
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath}				% For Math
+\usepackage{amsfonts}
+\usepackage{fancyhdr}				% For fancy header/footer
+\usepackage{graphicx}				% For including figure/image
+\usepackage{cancel}					% To use the slash to cancel out stuff in work
+\usepackage[dvipsnames]{xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{MATH 6600 (MOAM)}
+\fancyhead[CO,C]{Homework 6}
+\fancyhead[RO,R]{\textbf{Due} Tuesday 11/18/25}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\noindent
+Please submit your solutions to the following problems on Gradescope by \textbf{6pm} on the due date. Collaboration is encouraged, however, you must write up your solutions individually.
+
+\bigskip
+
+\noindent
+\textbf{1) Weak derivatives.} Recall that $f\in L^2([0,1])$ has a weak derivative $g\in L^2([0,1])$ if
+$$
+\int_0^1 g(x)\phi(x)\,dx = -\int_0^1 f(x) \phi'(x)\, dx, \qquad\text{for every}\qquad \phi\in C^1_0([0,1]).
+$$
+Here, $C^1_0([0,1])$ is the space of continuously differentiable functions with $u(0)=u(1)=0$.
+
+\begin{itemize}
+    \item[(a)] Verify that if $f\in L^2([0,1])$ is continuously differentiable on $[0,1]$, its classical derivative is also a weak derivative.
+    
+    \item[(b)] Show that the weak derivative of $f\in L^2([0,1])$ is unique in $L^2([0,1])$. That is, if $g\in L^2([0,1])$ and $h\in L^2([0,1])$ are both weak derivatives of $f$, then $\int_0^1 |g-h|^2dx = 0$.
+
+    \noindent
+    \textbf{Hint:} You may use the fact that $\int_0^1 |u(x)|^2 dx = 0$ if and only if $\int_0^1 u(x)\phi(x)\,dx = 0$ for every $\phi\in C^1_0([0,1])$. (If you want a challenge, try to prove this.)
+
+    \item[(c)] Verify that weak differentiation is a linear operation on $H^1([0,1])$ (the set of functions in $L^2([0,1])$ with square integrable weak derivatives).
+    
+    \item[(d)] Establish a form of the \textit{product rule} for weak derivatives. Show that if $g\in C^1_0([0,1])$ and $f\in H^1([0,1])$, then the weak derivative of their product satisfies $(fg)' = f'g + fg'$.
+\end{itemize}
+
+\noindent
+\textbf{2) Boundary Conditions.} Consider the first-order differential operator defined by 
+$$[Lu](x)=u'(x) + x\,u(x), \qquad u \in D(L) = \{ g\in H^1([0,1])\,|\,g(0) = 0.\}.
+$$
+Note that the set $D(L)$, the domain of $L$, encodes a \textit{boundary condition} for the solution.
+
+\begin{itemize}
+    \item[(a)] Calculate the adjoint of $L$, i.e., find an operator $L^\dagger$ and a domain $D(L^\dagger)$ such that $\int_0^1 v(x) [Lu](x)\,dx=\int_0^1 u(x) [L^\dagger v](x)\,dx$ holds for any $u\in D(L)$ and $v\in D(L^\dagger)$.
+
+    \item[(b)] Are there any nontrivial solutions to $Lu=0$ in $D(L)$, or to $L^\dagger u=0$ in $D(L^\dagger)$? 
+    
+    \item[(c)] Calculate the inverse of $L:D(L)\rightarrow L^2([0,1])$, that is, find an integral operator $K:L^2([0,1])\rightarrow L^2([0,1])$ such that $Lu = f$ if and only if $u = Kf$. Is $K$ bounded? 
+    
+    \noindent
+    \textbf{Hint:} Use the method of integrating factors.
+\end{itemize}
+
+\noindent
+\textbf{3) Existence and Uniqueness.} Consider the second-order differential operator defined by
+$$
+[Lu](\theta) = u''(\theta), \qquad \text{where} \qquad u\in D(L) = \{g\in H^2([0,1]) \,|\, g(0)=g(1)\,,\,g'(0)=g'(1)\}.
+$$
+Here, $H^2([0,1])$ is the set of functions in $L^2([0,1])$ with two weak derivatives in $L^2([0,1])$. 
+
+\begin{itemize}
+    \item[(a)] Calculate the adjoint of $L$, i.e., find an operator $L^\dagger$ and a domain $D(L^\dagger)$ such that $\int_0^1 v(\theta) [Lu](\theta)\,d\theta=\int_0^1 u(\theta) [L^\dagger v](\theta)\,d\theta$ holds for any $u\in D(L)$ and $v\in D(L^\dagger)$.
+
+    \item[(b)] Write down bases for the null space of $L$ and its adjoint, respectively.
+    
+    \item[(c)] Based on part (b), what condition must $f$ satisfy for $Lu=f$ to have a solution?
+
+    \item[(d)] If a solution to $Lu=f$ exists, is it unique? Write down the general solution(s).
+
+\end{itemize}
+
+\end{document}
