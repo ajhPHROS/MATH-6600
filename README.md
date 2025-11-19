@@ -229,6 +229,12 @@ See Chapters 3-4 of Intro to Linear Algebra by Gil Strang for a review of finite
 
 [Notes](notes/lecture19.pdf)
 
+### Lecture 20
 
+- Integral reformulation
+- Criteria for bounded inverse
+- Hilbert-Schmidt operators
+
+[Notes](notes/lecture20.pdf)
 
 
