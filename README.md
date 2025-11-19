@@ -179,4 +179,56 @@ A list of possible candidates for project topics will be assembled below as the 
 - Approximate polynomial solutions to ODEs
 - Series solutions and the method of Frobenius
 
-[Notes](notes/lecture13.pdf)
+[Notes](notes/lecture13.pdf) | For more on series solutions, see Chapter 12 of Mathematical Methods in the Physical Sciences by Mary Boas.
+
+### Lecture 14
+
+- More on power series solutions
+- Convergence of power series
+- The need for modified power series
+
+ [Notes](notes/lecture14.pdf) | For more on power series solutions and convergence, see Chapters 1 and 12 of Mathematical Methods in the Physical Sciences by Mary Boas.
+
+ ### Lecture 15
+
+ - Singular points of ODEs
+ - Modified power series solutions
+ - Fuch's theorem
+
+[Notes](notes/lecture15.pdf)
+
+ ### Lecture 16
+
+ - What is a "well-posed" linear equation?
+ - Existence, uniqueness, and sensitivity
+ - The four fundamental subspaces (N Dimensions)
+
+See Chapters 3-4 of Intro to Linear Algebra by Gil Strang for a review of finite-dimensional linear algebra.
+
+### Lecture 17
+
+- The adjoint of a linear operator
+- The four fundamental subspaces (Inf. Dimensions)
+- When is a linear operator invertible?
+
+[Notes](notes/lecture17.pdf)
+
+### Lecture 18
+
+- Differentiation in L^2 spaces
+- Weakly differentiable functions
+- The "amplifying power" of differentiation
+
+[Notes](notes/lecture18.pdf)
+
+### Lecture 19
+
+- Bounded and unbounded operators
+- Operators with bounded inverses
+- Continuity and Neumann series
+
+[Notes](notes/lecture19.pdf)
+
+
+
+
