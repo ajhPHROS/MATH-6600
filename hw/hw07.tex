@@ -1,0 +1,82 @@
+\documentclass[12pt]{article}
+	
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath}				% For Math
+\usepackage{amsfonts}
+\usepackage{fancyhdr}				% For fancy header/footer
+\usepackage{graphicx}				% For including figure/image
+\usepackage{cancel}					% To use the slash to cancel out stuff in work
+\usepackage[dvipsnames]{xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{MATH 6600 (MOAM)}
+\fancyhead[CO,C]{Homework 7}
+\fancyhead[RO,R]{\textbf{Due} Tuesday 12/2/25}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\noindent
+Please submit your solutions to the following problems on Gradescope by \textbf{6pm} on the due date. Collaboration is encouraged, however, you must write up your solutions individually.
+
+\bigskip
+
+\noindent
+\textbf{1) A Sturm--Liouville problem.} Consider the Sturm--Liouville eigenvalue problem
+$$
+u''(x) - q(x)u(x) = \lambda u(x), \qquad u(0)=u(1)=0.
+$$
+Here, $q(x)$ is a continuous, real-valued, non-negative function and we are looking for eigenfunctions $u(x)$ and associated eigenvalues $\lambda$ that solve this second-order differential equation.
+
+\begin{itemize}
+\item[(a)] Show that any eigenvalue of the Sturm--Liouville problem must be strictly negative. 
+
+\textbf{Hint:} Integrate both sides against a carefully selected test function and integrate by parts to show that $-\lambda$ is the integral of a strictly positive function.
+%note: may want to remove word "test" from hint.
+
+\item[(b)] Show that any two eigenfunctions with distinct eigenvalues must be orthogonal.
+
+\textbf{Hint:} Use the fact that the differential operator $Lu=u''-qu$ is self-adjoint.
+
+\item[(c)] Let $v_-$ satisfy $v_-''-qv_-=0$ subject to $v_-(0)=0$ and $v_+$ satisfy $v_+''-qv_+=0$ subject to $v_+(1)=0$. The "Wronskian" $w=v'_+(x)v_-(x)-v_-'(x)v_+(x)$ of these two solutions is a nonzero constant. Define the integral operator $\smash{[Tf](x) = \int_0^1 k(x,y)f(y)\,dy}$ with
+$$
+k(x,y) = \begin{cases}
+    w^{-1} v_-(x)v_+(y), \quad &0\leq x\leq y\leq 1, \\
+    w^{-1} v_+(x)v_-(y), \quad &0\leq y\leq x\leq 1.
+\end{cases}
+$$
+Verify that $T$ is a self-adjoint Hilbert--Schmidt operator.
+
+\item[(d)] Let $T$ be the integral operator in (c). Show that if $f$ is continuous on $[0,1]$, then
+$$
+[Tf]''(x) - q(x)[Tf](x) = f(x),
+$$
+i.e., that $T$ is a bounded inverse of the differential operator $[Lu](x)=u''(x)-q(x)u(x)$.
+
+\item[(e)] Use your work in (a)-(d) to argue that each eigenfunction of $T$ is an eigenvector of $L$ and explain why this implies that the orthogonal eigenfunctions of $L$ span $L^2([0,1])$.
+
+\end{itemize}
+
+\noindent
+\textbf{2) Operators without eigenvectors.}
+
+\begin{itemize}
+    \item[(a)] Show that the multiplication operator $T:L^2([0,1])\rightarrow L^2([0,1])$ defined by $[Tf](x)=xf(x)$ is bounded and self-adjoint.
+
+    \item[(b)] However, show that $T$ from (a) has no eigenvectors in $L^2([0,1])$. Why does the spectral theorem from Lecture 21 fail to apply here? What crucial property is $T$ missing?
+
+    \item[(c)] Now suppose that $\{\phi_k\}_{k=1}^\infty$ is an orthonormal basis for a Hilbert space $\mathcal{H}$ and consider the operator $S\phi_k=k^{-1}\phi_{k+1}$. Show that $S$ is compact, i.e., that there is a sequence of finite rank operators $S_n$ such that $\|S-S_n\|\rightarrow 0$ as $n\rightarrow\infty$.
+
+    \item[(d)] Show that $S$ has no eigenvectors in $\mathcal{H}$. Why does the spectral theorem from Lecture 10 fail to apply here? What crucial property is $S$ missing?
+
+\end{itemize}
+
+
+\end{document}
