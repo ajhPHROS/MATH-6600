@@ -238,4 +238,11 @@ See Chapters 3-4 of Intro to Linear Algebra by Gil Strang for a review of finite
 
 [Notes](notes/lecture20.pdf)
 
+### Lecture 21
+
+- Continuous analogues of square matrices
+- The SVD of a Hilbert-Schmidt operator
+- Compact operators and the spectral theorem
+
+[Notes](notes/lecture21.pdf)
 
