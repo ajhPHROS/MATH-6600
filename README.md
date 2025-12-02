@@ -246,3 +246,11 @@ See Chapters 3-4 of Intro to Linear Algebra by Gil Strang for a review of finite
 
 [Notes](notes/lecture21.pdf)
 
+### Lecture 22
+
+- The singular values of a Hilbert-Schmidt operator
+- Continuous analogues of matrix norms
+- Low-rank approximation of Hilbert-Schmidt operators
+
+[Notes](notes/lecture22.pdf) | Examine the SVD of H-S kernels with Chebfun2 in [demo03](demos/).
+
