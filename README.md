@@ -254,3 +254,11 @@ See Chapters 3-4 of Intro to Linear Algebra by Gil Strang for a review of finite
 
 [Notes](notes/lecture22.pdf) | Examine the SVD of H-S kernels with Chebfun2 in [demo03](demos/).
 
+### Lecture 23
+
+- Principle Component Analysis (PCA)
+- Diagonalizing the covariance matrix
+- Maximal variance and the Rayleigh quotient
+
+[Notes](notes/lecture23.pdf)
+
