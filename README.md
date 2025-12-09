@@ -262,3 +262,11 @@ See Chapters 3-4 of Intro to Linear Algebra by Gil Strang for a review of finite
 
 [Notes](notes/lecture23.pdf)
 
+### Lecture 24
+
+- PCA in practice
+- The SVD of the data matrix
+- Nonlinear features and higher-order statistics
+
+[Notes](notes/lecture24.pdf) | Try out [PCA](demos/demo04.m) [demos](demos/demo05.m) on some toy linear and nonlinear models.
+
