@@ -270,3 +270,11 @@ See Chapters 3-4 of Intro to Linear Algebra by Gil Strang for a review of finite
 
 [Notes](notes/lecture24.pdf) | Try out [PCA](demos/demo04.m) [demos](demos/demo05.m) on some toy linear and nonlinear models.
 
+### Lecture 25
+
+- Nonlinear Component Analysis
+- The kernel trick and Mercer's theorem
+- Kernel PCA
+
+[Notes](notes/lecture25.pdf) | Check out Example 3 in [demo05](demos/demo05.m) to see how Kernel PCA can help solve classification problems.
+
