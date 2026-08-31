@@ -1,6 +1,6 @@
 # MATH 6600: Methods of Applied Mathematics
 
-This is the main repository of course materials for MATH 6600 at RPI, Fall 2025. The syllabus is posted in the README below. Lecture notes, homework, exams, and supplementary materials will be posted here or linked through Piazza and Gradescope (RCS access only).
+This is the main repository of course materials for MATH 6600 at RPI, Fall 2026. The syllabus is posted in the README below. Lecture notes, homework, exams, and supplementary materials will be posted here or linked through Piazza and Gradescope (RCS access only).
 
 > **Course description (from [RPI Catalog](https://catalog.rpi.edu/preview_course_nopop.php?catoid=11&coid=18982))**
 >
@@ -11,25 +11,25 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2025.
 
 ## Syllabus
 
-**Lectures**: Tuesday/Friday 10–11:50am in LOW 3112.
+**Lectures**: Tuesday/Friday 10–11:50am in JEC 3207
 
 **Instructor**: Andrew Horning
 
-**Office Hours:** 12-1pm on Tuesday and 2-3pm on Friday in Amos Eaton 329. 
+**Office Hours:** TBD in Amos Eaton 329 
 
 **Contact:** hornia3@rpi.edu
 
 **Course Tools:** Communicate (announcements, questions, and discussion) through [Piazza](https://piazza.com/). View and submit homework assignments on [Gradescope](https://www.gradescope.com/). The mid-term will be in-class and the final project will be submitted on Gradescope.
 
-**Grading:** 40% homework (due weekly on Monday at 6pm), 30% mid-term (October 21), 30% project (December 12). Problem sets must be submitted to Gradescope before the deadline on the due date. Regrade requests can be made on Gradescope within one week of return.
+**Grading:** 25% homework (due every 1-2 weeks), 25% mid-term (TBD), 25% project (Dec 4), 25% oral exam (Dec 7-11). Problem sets must be submitted to Gradescope before the deadline on the due date. Regrade requests can be made on Gradescope within one week of return.
 
 **Collaboration and Academic Integrity:** To maximize your learning objectives, reserve time to work on each problem independently before discussing it with your classmates. Always write up the solution on your own and acknowledge your collaborators. Copying solutions directly from peers, books, internet sources, or AI tools is strictly prohibited.
 
-**Accomodations and Disability Services:** If you have approved accommodations through the Office of Disability Services for Students ([DSS](https://studenthealth.rpi.edu/list-services/disability-student-services)), please reach out to meet with me early in the semester. We are committed to equal access for all students and will be happy to facilitate the use of approved accommodations. 
+**Accomodations and Disability Services:** If you have approved accommodations through the Office of Disability Services for Students ([DSS](https://studenthealth.rpi.edu/list-services/disability-student-services)), please reach out to me early in the semester. We are committed to equal access for all students and will be happy to facilitate the use of approved accommodations. 
 
 ## Project
 
-Write an 8-10 page report that reviews either a "method" (e.g., matched perturbation expansions) or a "problem" (e.g., elliptic partial differential equations on the disk) in applied mathematics. Your report should include:
+Write a 10-12 page report that reviews either a "method" (e.g., matched perturbation expansions) or a "problem" (e.g., elliptic partial differential equations on the disk) in applied mathematics. Your report should include:
 >
 > *Review*: Why is this method or problem important, what is its history, and what are
 the important publications and references? (A comprehensive bibliography is
@@ -68,213 +68,12 @@ A list of possible candidates for project topics will be assembled below as the 
 
 ## Assignments
 
-- [Homework 1](hw/) is due by 6pm on Monday, September 8. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/16)
-- [Homework 2](hw/) is due by 6pm on Monday, September 29. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/19)
-- [Homework 3](hw/) is due by 6pm on Tuesday, October 14. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/21)
-- [Homework 4](hw/) is due by 6pm on Tuesday, October 21. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/22)
-- [Homework 5](hw/) is due by 6pm on Tuesday, November 11. (Project proposal, no solutions)
-- [Homework 6](hw/) is due by 6pm on Tuesday, November 18. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/33)
-- [Homework 7](hw/) is due by 6pm on Tuesday, December 2. [(Solutions)](https://piazza.com/class/mew28dpvp846sp/post/35)
+- [Homework 1](hw/) is due by 6pm on Friday, September 4.
   
 ## Lecture summaries
 
 ### Lecture 1
 
-- Models and data in modern applied math
-- Dimensionality, nonlinearity, and uncertainty
-- Intro to linear approximation: Taylor and Fourier series
+- Methods of Applied Math in 2026
 
-[Notes](notes/lecture01.pdf)
-
-### Lecture 2
-
-- Linear algebra with functions
-- Dictionaries and data
-- Truncation errors (Taylor series)
-
-[Notes](notes/lecture02.pdf) | See notes for derivation of Taylor remainder term. For a concise review of vectors, matrices, inner products, and norms, see Chapters 1 and 3 of "Numerical Linear Algebra" by Trefethen and Bau.
-
-### Lecture 3
-
-- The remainder theorem for Taylor series
-- Truncation errors for Taylor and Fourier series
-- Convergence properties of Taylor and Fourier series
-
-[Notes](notes/lecture03.pdf)
-
-### Lecture 4
-
-- Vector spaces of functions
-- Dependence, span, and dimension
-- Inner products and norms
-
-[Notes](notes/lecture04.pdf)
-
-### Lecture 5
-
-- Inner product spaces
-- Orthogonality for functions
-- Hilbert spaces and completeness
-
-[Notes](notes/lecture05.pdf) | See pp. 50-58 on function spaces in [Stone and Goldbart](https://lms.rpi.edu/ultra/courses/_23740_1/cl/outline). See pp. 156-167 of [Stein and Shakarchi](https://lms.rpi.edu/ultra/courses/_23740_1/cl/outline) for a rigorous introduction to Hilbert spaces.
-
-### Lecture 6
-
-- Best approximation as least-squares
-- The orthogonal residual criterion
-- Solution via orthonormal basis
-
-[Notes](notes/lecture06.pdf)
-
-### Lecture 7
-
-- Orthogonal residual criterion in a Hilbert space
-- Orthogonal complements and projections
-- Fourier series and orthogonal bases
-
-[Notes](notes/lecture07.pdf) | See Chapter 4, section 4 of Stein and Shakarchi [Stein and Shakarchi](https://lms.rpi.edu/ultra/courses/_23740_1/cl/outline) for a detailed treatment of closed subspaces, orthogonal projections, and the orthogonal residual criterion in a Hilbert space.
-
-### Lecture 8
-
-- Orthonormal bases in a Hilbert space
-- Bessel's inequality and Parseval's identity
-- Orthogonal projection and quasimatrices
-
-[Notes](notes/lecture08.pdf)
-
-### Lecture 9
-
-- Gram--Schmidt orthogonalization
-- The QR decomposition for quasimatrices
-- Finding a "best approximation" with QR
-
-[Notes](notes/lecture09.pdf)
-
-### Lecture 10
-
-- What makes a good basis?
-- Coordinate transformation
-- Gram matrices and condition numbers
-
-[Notes](notes/lecture10.pdf) | See [demo01](demos/) for a MATLAB illustration of good vs bad bases with Chebfun. Get started with Chebfun [here](https://www.chebfun.org/about/).
-
-### Lecture 11
-
-- Interpolation, regression, and regularization
-- Approximation error: dictionary vs. data
-- What makes a "good" set of interpolation points?
-
-[Notes](notes/lecture11.pdf) | See [demo02](demos/) for a MATLAB illustration of good vs bad interpolation points with Chebfun.
-
-### Lecture 12
-
-- Interpolation as oblique projection
-- Interpolation vs "best" approximation
-- Linear transformations and representations
-
-[Notes](notes/lecture12.pdf) | For an illustrative example of the _Lebesgue constant_ (the "amplifying factor" for interpolants defined in the notes, measured in the max norm) for equispaced points and Chebyshev points, see this [nice example](https://www.chebfun.org/examples/approx/LebesgueConst.html) from the Chebfun Gallery.
-
-### Lecture 13
-
-- Differentiation in the monomial basis
-- Approximate polynomial solutions to ODEs
-- Series solutions and the method of Frobenius
-
-[Notes](notes/lecture13.pdf) | For more on series solutions, see Chapter 12 of Mathematical Methods in the Physical Sciences by Mary Boas.
-
-### Lecture 14
-
-- More on power series solutions
-- Convergence of power series
-- The need for modified power series
-
- [Notes](notes/lecture14.pdf) | For more on power series solutions and convergence, see Chapters 1 and 12 of Mathematical Methods in the Physical Sciences by Mary Boas.
-
- ### Lecture 15
-
- - Singular points of ODEs
- - Modified power series solutions
- - Fuch's theorem
-
-[Notes](notes/lecture15.pdf)
-
- ### Lecture 16
-
- - What is a "well-posed" linear equation?
- - Existence, uniqueness, and sensitivity
- - The four fundamental subspaces (N Dimensions)
-
-See Chapters 3-4 of Intro to Linear Algebra by Gil Strang for a review of finite-dimensional linear algebra.
-
-### Lecture 17
-
-- The adjoint of a linear operator
-- The four fundamental subspaces (Inf. Dimensions)
-- When is a linear operator invertible?
-
-[Notes](notes/lecture17.pdf)
-
-### Lecture 18
-
-- Differentiation in L^2 spaces
-- Weakly differentiable functions
-- The "amplifying power" of differentiation
-
-[Notes](notes/lecture18.pdf)
-
-### Lecture 19
-
-- Bounded and unbounded operators
-- Operators with bounded inverses
-- Continuity and Neumann series
-
-[Notes](notes/lecture19.pdf)
-
-### Lecture 20
-
-- Integral reformulation
-- Criteria for bounded inverse
-- Hilbert-Schmidt operators
-
-[Notes](notes/lecture20.pdf)
-
-### Lecture 21
-
-- Continuous analogues of square matrices
-- The SVD of a Hilbert-Schmidt operator
-- Compact operators and the spectral theorem
-
-[Notes](notes/lecture21.pdf)
-
-### Lecture 22
-
-- The singular values of a Hilbert-Schmidt operator
-- Continuous analogues of matrix norms
-- Low-rank approximation of Hilbert-Schmidt operators
-
-[Notes](notes/lecture22.pdf) | Examine the SVD of H-S kernels with Chebfun2 in [demo03](demos/).
-
-### Lecture 23
-
-- Principle Component Analysis (PCA)
-- Diagonalizing the covariance matrix
-- Maximal variance and the Rayleigh quotient
-
-[Notes](notes/lecture23.pdf)
-
-### Lecture 24
-
-- PCA in practice
-- The SVD of the data matrix
-- Nonlinear features and higher-order statistics
-
-[Notes](notes/lecture24.pdf) | Try out [PCA](demos/demo04.m) [demos](demos/demo05.m) on some toy linear and nonlinear models.
-
-### Lecture 25
-
-- Nonlinear Component Analysis
-- The kernel trick and Mercer's theorem
-- Kernel PCA
-
-[Notes](notes/lecture25.pdf) | Check out Example 3 in [demo05](demos/demo05.m) to see how Kernel PCA can help solve classification problems.
 
