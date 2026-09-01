@@ -80,3 +80,13 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture01.pdf)
 
+### Lecture 2
+
+- Taylor polynomials and their remainders
+- Convergence of Taylor series
+- Fourier series, coefficients, and convergence
+
+[Notes](notes/lecture02.pdf)
+
+
+
