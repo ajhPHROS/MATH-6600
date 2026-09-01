@@ -78,4 +78,5 @@ A list of possible candidates for project topics will be assembled below as the 
 - "Slicing" complex problems into simple pieces
 - 2 familiar ways to slice: Taylor and Fourier
 
+[Notes](notes/lecture01.pdf)
 
