@@ -74,6 +74,8 @@ A list of possible candidates for project topics will be assembled below as the 
 
 ### Lecture 1
 
-- Methods of Applied Math in 2026
+- Course logistics and introduction
+- "Slicing" complex problems into simple pieces
+- 2 familiar ways to slice: Taylor and Fourier
 
 
