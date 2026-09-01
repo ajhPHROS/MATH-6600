@@ -15,7 +15,7 @@ This is the main repository of course materials for MATH 6600 at RPI, Fall 2026.
 
 **Instructor**: Andrew Horning
 
-**Office Hours:** TBD in Amos Eaton 329 
+**Office Hours:** Tuesday 3-4pm and Friday 4-5pm in Amos Eaton 329
 
 **Contact:** hornia3@rpi.edu
 
@@ -78,4 +78,5 @@ A list of possible candidates for project topics will be assembled below as the 
 - "Slicing" complex problems into simple pieces
 - 2 familiar ways to slice: Taylor and Fourier
 
+[Notes](notes/lecture01.pdf)
 
