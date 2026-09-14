@@ -88,5 +88,13 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture02.pdf)
 
+### Lecture 3
+
+- Linear algebra for functions
+- Abstract vector spaces and subspaces
+- Span, dependence, dimension, basis
+
+[Notes](notes/lecture03.pdf)
+
 
 
