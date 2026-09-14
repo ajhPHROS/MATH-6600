@@ -96,5 +96,13 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture03.pdf)
 
+### Lecture 4
+
+- Measuring "size" in a function space
+- Inner products and orthogonality
+- Completeness and Hilbert spaces
+
+[Notes](notes/lecture04.pdf)
+
 
 
