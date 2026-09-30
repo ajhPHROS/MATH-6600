@@ -106,5 +106,48 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture04.pdf)
 
+### Lecture 5
+
+- Best approximation in a Hilbert space
+- The orthogonal residual picture
+- Orthogonal projection (finite-dimensional)
+
+[Notes](notes/lecture05.pdf)
+
+### Lecture 6
+
+- Orthonormal sets in infinite dimensions
+- What makes an orthonormal set a basis?
+- Expansion in an orthonormal basis
+
+[Notes](notes/lecture06.pdf)
+
+### Lecture 7 
+
+- Fourier series as an ONB
+- Bessel's inequality and Parseval's identity
+- Gram-Schmidt orthogonalization
+
+[Notes](notes/lecture07.pdf)
+
+### Lecture 8
+
+- Legendre polynomials
+- Quasimatrices
+- The QR decomposition of a quasimatrix
+
+[Notes](notes/lecture08.pdf)
+
+### Lecture 9
+
+- Best approximation via QR
+- What makes a good basis?
+- Example: Legendre vs Monomials
+
+[Notes](notes/lecture09.pdf)
+
+
+
+
 
 
