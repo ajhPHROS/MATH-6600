@@ -144,7 +144,7 @@ A list of possible candidates for project topics will be assembled below as the 
 - What makes a good basis?
 - Example: Legendre vs Monomials
 
-[Notes](notes/lecture09.pdf)
+[Notes](notes/lecture09.pdf) | [Demo](demos/demo01.m)
 
 
 
