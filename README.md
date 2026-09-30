@@ -70,6 +70,7 @@ A list of possible candidates for project topics will be assembled below as the 
 
 - [Homework 1](hw/hw01.pdf) is due by 6pm on Wednesday, September 9. See solutions [here](https://piazza.com/class/mtbqhy9rr432i1/post/17).
 - [Homework 2](hw/hw02.pdf) is due by 6pm on Friday, September 25.
+- [Homework 3](hw/hw03.pdf) is due by 6pm on Wednesday, October 7.
   
 ## Lecture summaries
 
