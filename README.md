@@ -69,8 +69,8 @@ A list of possible candidates for project topics will be assembled below as the 
 ## Assignments
 
 - [Homework 1](hw/hw01.pdf) is due by 6pm on Wednesday, September 9. See solutions [here](https://piazza.com/class/mtbqhy9rr432i1/post/17).
-- [Homework 2](hw/hw02.pdf) is due by 6pm on Friday, September 25.
-- [Homework 3](hw/hw03.pdf) is due by 6pm on Wednesday, October 7.
+- [Homework 2](hw/hw02.pdf) is due by 6pm on Friday, September 25. See solutions [here](https://piazza.com/class/mtbqhy9rr432i1/post/27)
+- [Homework 3](hw/hw03.pdf) is due by ~~6pm on Wednesday, October 7~~ 6pm on Monday, October 12. See solutions [here](https://piazza.com/class/mtbqhy9rr432i1/post/29)
   
 ## Lecture summaries
 
@@ -146,8 +146,28 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture09.pdf) | [Demo](demos/demo01.m)
 
+### Lecture 10
 
+- Intro to linear transformations
+- Differentiation, integration, and projection
+- Polynomial interpolation as oblique projection
 
+[Notes](notes/lecture10.pdf)
 
+### Lecture 11
+
+- Interpolation vs best approximation
+- The matrix of a linear transformation
+- The linear algebra of series solutions to ODEs
+
+[Notes](notes/lecture11.pdf) | [Demo](demos/demo02.m)
+
+### Lecture 12
+
+- The nullspace of a linear transformation
+- Boundary conditions via boundary bordering
+- Singular points and modified series solutions
+
+[Notes](notes/lecture12.pdf)
 
 
