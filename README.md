@@ -146,8 +146,28 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture09.pdf) | [Demo](demos/demo01.m)
 
+### Lecture 10
 
+- Intro to linear transformations
+- Differentiation, integration, and projection
+- Polynomial interpolation as oblique projection
 
+[Notes](notes/lecture10.pdf)
 
+### Lecture 11
+
+- Interpolation vs best approximation
+- The matrix of a linear transformation
+- The linear algebra of series solutions to ODEs
+
+[Notes](notes/lecture11.pdf) | [Demo](demos/demo02.m)
+
+### Lecture 12
+
+- The nullspace of a linear transformation
+- Boundary conditions via boundary bordering
+- Singular points and modified series solutions
+
+[Notes](notes/lecture12.pdf)
 
 
