@@ -171,4 +171,19 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture12.pdf)
 
+### Lecture 13
+
+- More on modified power series solutions
+- Criterion for a regular singular point
+- Fuch's theorem for regular singular points
+
+[Notes](notes/lecture13.pdf)
+
+### Lecture 14
+
+- What makes a linear equation well-posed?
+- Bounded inverses and Neumann series
+- An infinite-dimensional example
+
+[Notes](notes/lecture14.pdf)
 
