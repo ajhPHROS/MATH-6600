@@ -187,3 +187,18 @@ A list of possible candidates for project topics will be assembled below as the 
 
 [Notes](notes/lecture14.pdf)
 
+### Lecture 15
+
+- Nullspace, range, and well-posedness
+- The adoint of a linear operator
+- The four fundamental subspaces
+
+[Notes](notes/lecture15.pdf)
+
+### Lecture 16
+
+- Differentiation in the Fourier basis
+- Diagonalization and the characteristic polynomial
+- Bases for the four fundamental subspaces 
+
+[Notes](notes/lecture16.pdf)
