@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+	
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath}				% For Math
+\usepackage{amsfonts}
+\usepackage{fancyhdr}				% For fancy header/footer
+\usepackage{graphicx}				% For including figure/image
+\usepackage{cancel}					% To use the slash to cancel out stuff in work
+\usepackage[dvipsnames]{xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{MATH 6600 (MOAM)}
+\fancyhead[CO,C]{Homework 6}
+\fancyhead[RO,R]{\textbf{Due} Friday 11/20/26}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\noindent
+Please submit your solutions to the following problems on Gradescope by \textbf{6pm} on the due date. Collaboration is encouraged, however, you must write up your solutions individually.
+
+\bigskip
+
+\noindent
+\textbf{1) A one-dimensional oscillator.}
+Consider the linear differential operator
+\[
+    Au=u''+4\pi^2u
+\]
+on the space $V=C_{\rm per}^\infty([0,1])$ of smooth complex-valued periodic functions with inner product
+\[
+    \langle u,v\rangle
+    =\int_0^1 u(x)\overline{v(x)}\,dx.
+\]
+Following parts (a)-(d), characterize the smooth periodic solutions to $Au=f$ with $u\in V$.
+
+\begin{itemize}
+    \item[(a)] Solve $Au=\lambda u$ for $u\in V$, i.e., compute the smooth, periodic eigenfunctions of $A$ and the associated eigenvalues.
+
+    \item[(b)] Calculate the adjoint $A^*$ of $A$ (using the inner product $\langle\cdot,\cdot\rangle$) and compute orthonormal bases for the four fundamental subspaces: $\mathcal{N}(A)$, $\mathcal{R}(A)$, $\mathcal{N}(A^*)$, and $\mathcal{R}(A^*)$.
+
+    \item[(c)] Derive necessary and sufficient conditions on $f\in V$ for
+    $Au=f$ to have a solution in $V$. Then, consider the following two forcings:
+    \begin{itemize}
+        \item[(i)] For $f(x)=\cos(4\pi x)$, find all periodic solutions
+        and explicitly identify any free parameters in your solution.
+        \item[(ii)] For $f(x)=\cos(2\pi x)$, determine whether a periodic
+        solution exists. Find one non-periodic solution of the
+        differential equation, verify it by substitution, and
+        identify which periodic boundary condition it fails.
+    \end{itemize}
+
+    \item[(d)]
+    In place of $A$, consider the linear differential operator associated with a damped oscillator,
+    \[
+        A_\gamma u=u''+2\gamma u'+4\pi^2u,
+        \qquad \gamma>0,
+    \]
+    on the same space $V$ of smooth, periodic functions. Calculate the eigenvalues of $A_\gamma$ and, for $f(x)=\cos(2\pi x)$, calculate a periodic solution to $A_\gamma u = f$. Is it unique? How does the amplitude $\max_{0\leq x\leq 1}|u(x)|$ depend on $\gamma$, and what happens as $\gamma \to 0^+$?
+\end{itemize}
+
+\noindent
+\textbf{2) A Sturm--Liouville problem.} Consider the Sturm--Liouville eigenvalue problem
+$$
+u''(x) - q(x)u(x) = \lambda u(x), \qquad u(0)=u(1)=0.
+$$
+Here, $q(x)$ is a continuous, real-valued, non-negative function and we are looking for eigenfunctions $u(x)$ and associated eigenvalues $\lambda$ that solve this second-order differential equation.
+
+\begin{itemize}
+\item[(a)] Show that any eigenvalue of the Sturm--Liouville problem must be strictly negative. 
+
+\textbf{Hint:} Integrate both sides against a carefully selected test function and integrate by parts to show that $-\lambda$ is the integral of a strictly positive function.
+%note: may want to remove word "test" from hint.
+
+\item[(b)] Show that any two eigenfunctions with distinct eigenvalues must be orthogonal.
+
+\textbf{Hint:} Use the fact that the differential operator $Lu=u''-qu$ is self-adjoint.
+
+\item[(c)] Let $v_-$ satisfy $v_-''-qv_-=0$ subject to $v_-(0)=0$ and $v_-'(0)=1$, and $v_+$ satisfy $v_+''-qv_+=0$ subject to $v_+(1)=0$ and $v_+'(1)=1$. Show that the ``Wronskian" $w=v'_+(x)v_-(x)-v_-'(x)v_+(x)$ of these two solutions is a nonzero constant and define the integral operator $\smash{[Tf](x) = \int_0^1 k(x,y)f(y)\,dy}$ with
+$$
+k(x,y) = \begin{cases}
+    w^{-1} v_-(x)v_+(y), \quad &0\leq x\leq y\leq 1, \\
+    w^{-1} v_+(x)v_-(y), \quad &0\leq y\leq x\leq 1.
+\end{cases}
+$$
+Verify that $T$ is a self-adjoint Hilbert--Schmidt operator.
+
+\item[(d)] Let $T$ be the integral operator in (c). Show that if $f$ is continuous on $[0,1]$, then
+$$
+[Tf]''(x) - q(x)[Tf](x) = f(x),
+$$
+i.e., that $T$ is a bounded inverse of the differential operator $[Lu](x)=u''(x)-q(x)u(x)$.
+
+\item[(e)] Use your work in (a)-(d) to argue that each eigenfunction of $T$ is an eigenvector of $L$ and explain why this implies that the orthogonal eigenfunctions of $L$ span $L^2([0,1])$.
+
+\end{itemize}
+
+
+\end{document}
