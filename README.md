@@ -72,6 +72,8 @@ A list of possible candidates for project topics will be assembled below as the 
 - [Homework 2](hw/hw02.pdf) is due by 6pm on Friday, September 25. See solutions [here](https://piazza.com/class/mtbqhy9rr432i1/post/27)
 - [Homework 3](hw/hw03.pdf) is due by ~~6pm on Wednesday, October 7~~ 6pm on Monday, October 12. See solutions [here](https://piazza.com/class/mtbqhy9rr432i1/post/29)
 - [Homework 4](hw/hw04.pdf) is due by 6pm on Monday, October 26. See solutions [here](https://piazza.com/class/mtbqhy9rr432i1/post/34)
+- [Homework 5](hw/hw05.pdf) (Project Proposal) is due by 6pm on Wednesday, November 11.
+- [Homework 6](hw/hw06.pdf) is due by 6pm on Friday, November 20.
   
 ## Lecture summaries
 
